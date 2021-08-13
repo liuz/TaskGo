@@ -129,6 +129,5 @@ func (ts *TaskStore) GetTasksByDueDate(year int, month time.Month, day int) []Ta
 			tasks = append(tasks, task)
 		}
 	}
-
 	return tasks
 }
